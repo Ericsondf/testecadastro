@@ -1,20 +1,5 @@
 # 🏪 Atlas Toldos — Sistema de Gestão de Clientes
 
-Sistema completo para cadastro, gestão de clientes e orçamentos, com login por usuário e deploy na nuvem.
-
----
-
-## 🔐 Login Padrão (ADM)
-
-```
-E-mail: admin@atlastoldos.com
-Senha:  atlas2024
-```
-
-> **Troque a senha do admin assim que entrar!** Vá em Usuários → editar o Administrador.
-
----
-
 ## 👥 Sistema de Usuários
 
 | Perfil | Acesso |
@@ -45,23 +30,6 @@ O administrador pode criar quantos usuários quiser em **Usuários** na barra la
 3. Clique duplo em **INICIAR.bat**
 4. O navegador abrirá em `http://localhost:5000`
 
----
-
-## ☁️ Como Colocar Online (Render.com — Gratuito)
-
-### Passo 1 — Criar conta no GitHub
-- Acesse [github.com](https://github.com) e crie uma conta gratuita
-
-### Passo 2 — Criar repositório
-1. Clique em **"New repository"**
-2. Nome: `atlas-toldos`
-3. Marque **Private** (privado)
-4. Clique em **"Create repository"**
-
-### Passo 3 — Fazer upload dos arquivos
-1. Na página do repositório criado, clique **"uploading an existing file"**
-2. Arraste todos os arquivos desta pasta (exceto o `.bat`)
-3. Mantenha a estrutura:
    ```
    atlas-toldos/
    ├── server.py
@@ -70,23 +38,6 @@ O administrador pode criar quantos usuários quiser em **Usuários** na barra la
    └── public/
        └── index.html
    ```
-4. Clique **"Commit changes"**
-
-### Passo 4 — Conectar ao Render
-1. Acesse [render.com](https://render.com) e crie conta (use o GitHub para entrar)
-2. Clique **"New +"** → **"Web Service"**
-3. Conecte seu repositório `atlas-toldos`
-4. O Render vai detectar o `render.yaml` automaticamente
-5. Clique **"Create Web Service"**
-6. Aguarde ~3 minutos — o sistema estará no ar!
-
-### Passo 5 — Acessar
-- Sua URL será algo como: `https://atlas-toldos.onrender.com`
-- Use o login padrão para entrar
-
-> ⚠️ **Importante:** No plano gratuito do Render, o serviço "dorme" após 15min sem uso e demora ~30s para acordar. Para uso contínuo, considere o plano pago ($7/mês).
-
----
 
 ## 📁 Estrutura de Arquivos
 
